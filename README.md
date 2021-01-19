@@ -31,8 +31,8 @@ In this example, we'll see how to impelement the CRUD operations in Laravel 8/7 
 
 # How to install and run on your local system
 
-- Clone the repository with git clone. https://github.com/JHS-Sujel/CRUD-operation-Laravel-
-- cd projectapp/
+- Clone the repository with git clone. https://github.com/JHS-Sujel/Complete-laravel-8-CRUD
+- cd laravel-8-CRUD
 - Run composer install or update
 - Add your database config in the .env file
 - Run php artisan migrate 
