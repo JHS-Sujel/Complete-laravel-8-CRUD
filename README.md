@@ -40,7 +40,9 @@ In this example, we'll see how to impelement the CRUD operations in Laravel 8/7 
 - Run php artisan key:generate
 - Run php artisan config:clear
 - php artisan serve (if the server opens up, http://127.0.0.1:8000,  then we are good to go)
+
 --- DONE
+
 - Navigate to http://127.0.0.1:8000/blogs
 
 
