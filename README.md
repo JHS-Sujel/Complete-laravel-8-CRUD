@@ -31,14 +31,16 @@ In this example, we'll see how to impelement the CRUD operations in Laravel 8/7 
 
 # How to install and run on your local system
 
-- Clone the repository with __git clone__ https://github.com/JHS-Sujel/CRUD-operation-Laravel-
+- Clone the repository with git clone. https://github.com/JHS-Sujel/CRUD-operation-Laravel-
 - cd projectapp/
-- Run __composer install__
-- Copy __.env.example__ file to __.env__
-- Run __php artisan key:generate__
+- Run composer install or update
 - Add your database config in the .env file
-- Run __php artisan migrate --seed__ (it has some seeded data for your testing)
+- Run php artisan migrate 
+- Run php artisan db:seed  --seed__ (it has some seeded data for your testing)
+- Run php artisan key:generate
+- Run php artisan config:clear
 - php artisan serve (if the server opens up, http://127.0.0.1:8000,  then we are good to go)
+--- DONE
 - Navigate to http://127.0.0.1:8000/blogs
 
 
