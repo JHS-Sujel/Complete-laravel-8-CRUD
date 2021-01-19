@@ -33,10 +33,11 @@ In this example, we'll see how to impelement the CRUD operations in Laravel 8/7 
 
 - Clone the repository with git clone. https://github.com/JHS-Sujel/Complete-laravel-8-CRUD
 - cd laravel8CRUD-master
-- Run composer install or update
+- Run composer install or update 
 - Add your database config in the .env file
-- Run php artisan migrate 
-- Run php artisan db:seed  --seed__ (it has some seeded data for your testing)
+- Create a new database in your localhost 
+- Table create: Run php artisan migrate
+- Create default user for system with: php artisan db:seed.    --seed__ (it has some seeded data for your testing)
 - Run php artisan key:generate
 - Run php artisan config:clear
 - php artisan serve (if the server opens up, http://127.0.0.1:8000,  then we are good to go)
