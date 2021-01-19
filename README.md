@@ -40,3 +40,64 @@ In this example, we'll see how to impelement the CRUD operations in Laravel 8/7 
 - Run __php artisan migrate --seed__ (it has some seeded data for your testing)
 - php artisan serve (if the server opens up, http://127.0.0.1:8000,  then we are good to go)
 - Navigate to http://127.0.0.1:8000/blogs
+
+
+![Screenshot (198)](https://user-images.githubusercontent.com/73945266/105083079-a3017580-5abe-11eb-8a7c-5d608623dde5.png)
+
+
+---
+
+
+# CRUD Operations
+
+
+- Create a project
+
+create() - This method has been used for load create.blade.php file. In this file user can find form for insert new records and 
+filling data insert data request will be send to store() method of ProjectController.php controller class.
+
+![Screenshot (197)](https://user-images.githubusercontent.com/73945266/105083093-a72d9300-5abe-11eb-8100-b4e8ff606b28.png)
+
+
+![Screenshot (199)](https://user-images.githubusercontent.com/73945266/105083085-a4cb3900-5abe-11eb-8444-f181d464e5c5.png)
+
+
+---
+
+
+- View a project
+
+show() - This method in Crud controller has been used for fetch single data details based on on value of $id argument. 
+For this it has been used findOrFail() method. After fetch details it will send to view.blade.php file.
+
+![Screenshot (200)](https://user-images.githubusercontent.com/73945266/105083088-a563cf80-5abe-11eb-84a5-df11018c749c.png)
+
+
+---
+
+
+- Edit a project
+
+edit() - This method main function is fetch single data from Mysql database and load into edit or update form for make required changes.
+
+
+![Screenshot (201)](https://user-images.githubusercontent.com/73945266/105083090-a5fc6600-5abe-11eb-8f01-3678f0e5bee3.png)
+
+
+---
+
+
+- Delete a project
+
+delete() - Delete() method mainly used for remove single or multiple data from Mysql Database. This is last operation Crud Operation in Laravel 8 Crud tutorial series.
+
+
+![Screenshot (202)](https://user-images.githubusercontent.com/73945266/105083092-a694fc80-5abe-11eb-8829-777e86aa92a9.png)
+
+
+---
+
+
+# License
+
+Basically, feel free to use and re-use any way you want
